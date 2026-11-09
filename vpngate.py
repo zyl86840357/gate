@@ -49,7 +49,7 @@ SCHEMA_VERSION = 1
 # VPN Gate 没有 HTTPS 接口，官方 API 只提供 HTTP。
 DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
-    "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
+    "https://zip.cm.edu.kg/all.json"
 )
 DEFAULT_OPTIMAL_API = ""
 
