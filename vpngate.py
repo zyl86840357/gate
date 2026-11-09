@@ -49,7 +49,7 @@ SCHEMA_VERSION = 1
 # VPN Gate 没有 HTTPS 接口，官方 API 只提供 HTTP。
 DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
-    "https://zip.cm.edu.kg/all.json"
+    ""
 )
 DEFAULT_OPTIMAL_API = ""
 
@@ -58,8 +58,7 @@ PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
-    "www.visa.cn:443",
-    "saas.sin.fan",
+
 ]
 
 DATA_CENTER_ORG_KEYWORDS = [
